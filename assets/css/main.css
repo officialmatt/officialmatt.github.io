@@ -204,7 +204,7 @@ a:after {
 
 #intro h5 {
 	font-size: 30px;
-
+	 font-weight: bold;
 	color: white;
 }
 #intro p {
@@ -303,6 +303,7 @@ a:after {
 .desc h5 {
 	color: white;
 	font-size: 30px;
+	 font-weight: bold;
 
 }
 
@@ -310,7 +311,7 @@ a:after {
 sm {
 	font-size: 18px;
 	color: white;
-
+ 	font-weight: bold;
 	font-family: "Raleway";
 
 }
