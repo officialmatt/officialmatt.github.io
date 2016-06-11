@@ -247,6 +247,8 @@ a:after {
 }
 
 #footwrap h5 {
+	font-size: 20px;
+	 font-weight: bold;
 
 	color: white;
 }
@@ -297,7 +299,7 @@ a:after {
 }
 
 .desc more {
-	color: #95a5a6;
+	color: #69727F;
 }
 
 .desc h5 {
