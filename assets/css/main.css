@@ -154,8 +154,8 @@ a:after {
 /* Header Wrap */
 #headerwrap {
 	background: url(../img/header-bg3.jpg) no-repeat center top;
-	/*margin-top: 60px;
-	padding-top:140px;*/
+	/*margin-top: 60px;*/
+	padding-top:140px;
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
@@ -174,7 +174,7 @@ a:after {
 }
 
 #headerwrap h1 {
-	padding-top:240px;
+	/*padding-top:240px;*/
 
 	font-size: 80px;
 	color: white;
@@ -186,7 +186,7 @@ a:after {
 }
 
 #headerwrap h4 {
-	padding-top:100px;
+	/*padding-top:100px;*/
 
 	font-size: 20px;
 	color: white;
