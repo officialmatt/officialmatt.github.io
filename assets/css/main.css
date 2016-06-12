@@ -37,7 +37,7 @@ p {
 
 /* Links */
 a {
-    color:#82B3F3 ;
+    color:#57BC94 ;
     word-wrap: break-word;
      
 
@@ -50,7 +50,7 @@ a {
 
 a:hover,
 a:focus {
-    color: #C2DAF8;
+    color: white;
     text-decoration: none;
     outline: 0;
 }
@@ -72,6 +72,11 @@ a:after {
     margin: 1em 0;
     padding: 0;
 }
+
+#LinkCol {
+	color:white;
+}
+
 
 
 /*---------------------------------------------------
