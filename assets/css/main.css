@@ -103,6 +103,10 @@ a:after {
 	text-align: center;
 }
 
+#test {
+}
+
+
 /*
 	Top Bar
 
@@ -207,6 +211,8 @@ a:after {
 #intro {
 	background: #82B3F3;
 	padding-top: 60px;
+		height: 100vh;
+
 	padding-bottom: 60px;
 	color: white;
 } 
