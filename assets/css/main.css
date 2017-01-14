@@ -7,21 +7,37 @@
  */
 
 body {
-  background-color: #C2DAF8;
+  background-color: #82B3F3;
     font-family: "Raleway";
-    font-weight: 300;
-    font-size: 18px;
+    font-weight: 600;
+    font-size: 20px;
     color: #555;
+
 
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
 }
-
+.container {
+  max-width: 100000px;
+}
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
     font-family: "Raleway";
     font-weight: 300;
     color: #333;
+}
+
+.modal-content {
+  background-color: #82B3F3;
+  color: black;
+}
+
+.modal-content a {
+  color: #8F9696;
+}
+
+.modal-content a:hover {
+  color: white;
 }
 
 
@@ -76,7 +92,6 @@ a:after {
 #LinkCol {
 	color:white;
 }
-
 
 
 /*---------------------------------------------------
@@ -159,8 +174,8 @@ a:after {
 
 /* Header Wrap */
 #headerwrap {
-	/*background: url(../img/header-bg3.jpg) no-repeat center top;*/
-	background: #C2DAF8;
+	background: url(../img/header-bg3.jpg) no-repeat center top;
+	/*background: #C2DAF8;*/
 	/*margin-top: 60px;*/
 	padding-top:140px;
 	text-align:center;
@@ -210,11 +225,13 @@ a:after {
 	padding-top: 60px;
 	padding-bottom: 60px;
 	color: white;
+  text-align: center;
 }
 
 #intro h5 {
-	font-size: 30px;
+	font-size: 36px;
 	 font-weight: bold;
+   text-align: center;
 	color: white;
 }
 #intro p {
@@ -223,7 +240,6 @@ a:after {
 }
 
 #intro i {
-	color: white;
 	font-size: 20px;
 	padding-right: 8px;
 	vertical-align: middle;
@@ -247,7 +263,7 @@ a:after {
 }
 
 #footwrap {
-	background: #82B3F3;
+	background: #4593e3;
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
@@ -270,13 +286,14 @@ a:after {
 
 #footwrap i {
 	padding-right: 8px;
-	color: #1abc9c;
+
+
 }
 
 /* Copyright Wrap */
 
 #c {
-	background: #82B3F3;
+	background: #4593e3;
 	padding-top: 15px;
 	text-align: right;
 }
@@ -294,12 +311,15 @@ a:after {
 }
 
 .desc p {
-	color: #615E5E;
+	/*color: #615E5E;*/
+  color: white;
+  text-align: center;
 }
 
 .desc t {
 	color: #34495e;
 	font-weight: 700;
+  font-size: 25px;
 }
 
 .desc imp {
@@ -314,10 +334,29 @@ a:after {
 
 .desc h5 {
 	color: white;
-	font-size: 30px;
+	font-size: 36px;
 	 font-weight: bold;
+   text-align: center;
 
 }
+
+.desc a {
+  color: #8F9696;
+}
+.desc a:hover {
+  color: white;
+}
+.desc h6 {
+	color: white;
+	font-size: 40px;
+	 font-weight: bold;
+   text-align: center;
+
+}
+
+
+
+
 
 
 sm {

@@ -10,7 +10,7 @@
     <title>Matt Policane</title>
     <link rel="icon" href="assets/img/matt_emoji.png">
     <link rel="apple-touch-icon" sizes="114x114" href="assets/img/matt_emoji.png" />
-
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" /> <!-- Main stylesheet /-->
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
 
@@ -21,6 +21,9 @@
 
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'> <!-- Open Sans /-->
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'> <!-- PT Sans Narrow /-->
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet"> <!-- Font Awesome /-->
 
     <script src="assets/js/jquery.min.js"></script>
     <script type="text/javascript" src="assets/js/smoothscroll.js"></script>
@@ -73,7 +76,7 @@
 					<h3>Second Year Computer Science Student | <a href="mailto:matt@policane.com"> <font color="white">matt@policane.com</a></font></h3>
 					<p>
 						<a href="https://twitter.com/MPolicane"><i class="icon-twitter"style="font-size:48px;"></i></a>
-						<a href="https://www.facebook.com/matt.policane"><i class="icon-facebook"style="font-size:48px;padding-left:25px;""></i></a>
+						<a href="https://www.facebook.com/matt.policane"><i class="icon-facebook"style="font-size:48px;padding-left:25px;"></i></a>
 						<a href="https://www.instagram.com/mattpolicane/"style="font-size:48px;padding-left:25px"><i class="icon-instagram"></i></a>
 						<a href="https://www.linkedin.com/in/matt-policane-5395289b?trk=nav_responsive_tab_profile_pic"style="font-size:48px;padding-left:25px"><i class="icon-linkedin"></i></a>
 						<a href="https://github.com/officialmatt"style="font-size:48px;padding-left:25px"><i class="icon-github"></i></a>
@@ -83,21 +86,23 @@
 					</p>
 					<p> <h4><a class="smoothScroll" href="#about" title="About"><i class="icon-chevron-down"style="font-size:48px;"></i></a> </h4> </p>
 
-				</div><!--/.col-lg-12 -->
-			</div><!--/.row -->
-		</div><!--/.container -->
-	</div><!--/.#headerwrap -->
+				</div> <!--/.col-lg-12 -->
+			</div> <!--/.row -->
+		</div> <!--/.container -->
+	</div> <!--/.#headerwrap -->
 
 
 	<section id="about" name="about"></section>
 	<div id="intro">
 		<div class="container">
+      <h5>Who am I?</h5>
+      <div class="separator"></div>
+
 			<div class="row">
 
 				<div class="col-lg-2 col-lg-offset-1">
-					<h5>About me</h5>
 				</div>
-				<div class="col-lg-6">
+        <div class="col-md-8 col-md-offset-2">
 					<br>
 					<br>
 
@@ -108,7 +113,7 @@
 
 					<p>Click <a href="mailto:matt@policane.com?subject=CV Request&body=Please could you send me your CV"><font color = white><i>here</i></font></a> to send a request for my CV and I will send the most recent version as quickly as possible. </br> </p>
 					<br> <br>
-					<p> <center><a class="smoothScroll" href="#resume" title="Resume"><i class="icon-chevron-down"style="font-size:48px;"></i></a> </center> </p>
+					<p> <center><a class="smoothScroll" href="#speakers" title="Resume"><i class="icon-chevron-down"style="font-size:48px;"></i></a> </center> </p>
 
 
 			</div>
@@ -129,334 +134,261 @@
 			</div><!--/.row -->
 		</div><!--/.container -->
 	</div><!--/ #intro -->
+  <section id="speakers">
+    <h3>My Projects</h3> <!-- Section Title -->
+    <div class="separator"></div>
+    <div class="container">
+      <div class="col-md-8 col-md-offset-2">
+        <!-- Section Description -->
+        <br>
+        <p>I have undertaken a number of different projects during and before my time at University which have broadened my knowledge in a wide range of fields of Computer Science. These projects can be seen below:</p>
+      </div>
+
+      <!-- First Row of Speakers -->
+      <div class="row1">
+
+        <!-- Speaker 1 -->
+        <div class="col-md-3">
+          <a href="#" class="member-profile" data-toggle="modal" data-target="#myModal">
+            <div class="unhover_img">
+            <img src="img/car2.jpg" alt="" />
+            </div>
+            <div class="hover_img">
+            <img src="img/car1.jpg" alt="" />
+            </div>
+            <span>iOS Dev</span>
+            <h4>parkIT </h4>
+          </a>
+
+        </div>
+
+        <div class="modal fade" id="myModal" role="dialog">
+           <div class="modal-dialog">
+
+             <!-- Modal content-->
+             <div class="modal-content">
+               <div class="modal-header">
+                 <button type="button" class="close" data-dismiss="modal">&times;</button>
+                 <br>
+                 <h4 class="modal-title">parkIT</h4>
+               </div>
+               <div class="modal-body">
+                  <p>I am currently working with a group of students to create an iOS app which helps users find car parking spaces near-by. The app makes use of the Google Maps API and is written in Swift.</p>
+               </div>
+               <div class="modal-footer">
+               </div>
+             </div>
+
+           </div>
+         </div>
+
+        <!-- Speaker 2 -->
+        <div class="col-md-3">
+          <a href="#" class="member-profile" data-toggle="modal" data-target="#myModal2">
+            <div class="unhover_img">
+            <img src="img/doctor2.jpeg" alt="" />
+            </div>
+            <div class="hover_img">
+            <img src="img/doctor1.jpeg" alt="" />
+            </div>
+            <span> Databases</span>
+            <h4> Maple</h4>
+          </a>
+
+        </div>
+
+        <div class="modal fade" id="myModal2" role="dialog">
+           <div class="modal-dialog">
+
+             <!-- Modal content-->
+             <div class="modal-content">
+               <div class="modal-header">
+                 <button type="button" class="close" data-dismiss="modal">&times;</button>
+                 <br>
+                 <h4 class="modal-title">Maple</h4>
+               </div>
+               <div class="modal-body">
+                  <p>Along with two other UCL students, I am working with an NHS Client to make a website which will allow easy access to and manipulation of hospital databases.</p>
+                  <p> The ongoing project website can be seen <a href = "http://students.cs.ucl.ac.uk/2016/group33/index.html" > here </a> </p>
+
+
+               </div>
+               <div class="modal-footer">
+               </div>
+             </div>
+
+           </div>
+         </div>
+
+        <!-- Speaker 3 -->
+        <div class="col-md-3">
+          <a href="#" class="member-profile" data-toggle="modal" data-target="#myModal3">
+            <div class="unhover_img">
+            <img src="img/solar1.png" alt="" />
+            </div>
+            <div class="hover_img">
+            <img src="img/solar2.png" alt="" />
+            </div>
+            <span>Web Dev</span>
+            <h4> The Solar Swiftem</h4>
+          </a>
+
+        </div>
+
+        <div class="modal fade" id="myModal3" role="dialog">
+           <div class="modal-dialog">
+
+             <!-- Modal content-->
+             <div class="modal-content">
+               <div class="modal-header">
+                 <button type="button" class="close" data-dismiss="modal">&times;</button>
+                 <br>
+                 <h4 class="modal-title">The Solar Swiftem</h4>
+               </div>
+               <div class="modal-body">
+                  <p>Using an exciting space theme, some coursemates and I are in the process of creating a website on which children aged 11-13 can learn the programming language Swift.</p>
+                  <p> The website can currently be seen at <a href = "www.solarswiftem.com" > www.solarswiftem.com </a> </p>
+               </div>
+               <div class="modal-footer">
+               </div>
+             </div>
+
+           </div>
+         </div>
+
+        <!-- Speaker 4 -->
+        <div class="col-md-3">
+          <a href="#" class="member-profile" data-toggle="modal" data-target="#myModal4">
+            <div class="unhover_img">
+            <img src="img/stem2.png" alt="" />
+            </div>
+            <div class="hover_img">
+            <img src="img/stem1.png" alt="" />
+            </div>
+            <span>Game Dev</span>
+            <h4>Stem Cell Lab</h4>
+          </a>
+
+        </div>
+        <div class="modal fade" id="myModal4" role="dialog">
+           <div class="modal-dialog">
+
+             <!-- Modal content-->
+             <div class="modal-content">
+               <div class="modal-header">
+                 <button type="button" class="close" data-dismiss="modal">&times;</button>
+                 <br>
+                 <h4 class="modal-title">Stem Cell Lab</h4>
+               </div>
+               <div class="modal-body">
+                  <p>For the app development module during my first year I created a game in Unity demonstrating the research that the UCL Institute of Neurology undertakes on a day to day basis by stylising the research in a 'tamagotchi' style way. The project was undertaken in a team with a professional client taking the end product once finished.</p>
+                  <p> A demo of the app can be seen <a href = "https://www.youtube.com/watch?v=WFU_GkQWIn0&feature=youtu.be" > here </a> </p>
+
+
+               </div>
+               <div class="modal-footer">
+               </div>
+             </div>
+
+           </div>
+         </div>
+
+      </div> <!-- End First Row -->
+      <div class="clear"></div>
+
+      <!-- Second Row of Speakers -->
+      <div class="row2">
+
+        <!-- Speaker 5 -->
+        <div class="col-md-3">
+          <a href="#" class="member-profile" data-toggle="modal" data-target="#myModal5">
+            <div class="unhover_img">
+            <img src="img/pacman1.png" alt="" />
+            </div>
+            <div class="hover_img">
+            <img src="img/pacman2.png" alt="" />
+            </div>
+            <span>Python</span>
+            <h4> Revise Man</h4>
+          </a>
+
+        </div>
+
+        <div class="modal fade" id="myModal5" role="dialog">
+           <div class="modal-dialog">
+
+             <!-- Modal content-->
+             <div class="modal-content">
+               <div class="modal-header">
+                 <button type="button" class="close" data-dismiss="modal">&times;</button>
+                 <br>
+                 <h4 class="modal-title">Revise Man</h4>
+               </div>
+               <div class="modal-body">
+                  <p>For my A Level Computing project I wrote a game using Python and Pygame based on the popular game PacMan. The idea was to help students practice their revision by answering questions on a specific topic whilst playing the game.</p>
+                  <p> The project can be downloaded <a href = "https://drive.google.com/file/d/0B4McmIvJZxB0VDM0cjcxVm1GUGM/view" > here </a></p>
+
+
+               </div>
+               <div class="modal-footer">
+               </div>
+             </div>
+
+           </div>
+         </div>
+
+
+
+      </div>	<!-- End Second Row -->
+      <div class="clear"></div>
+
+      <!-- View All Button -->
+      <div class="col-md-12">
+        <button class="btn btn-transparent fadeIn">View All</button>
+      </div>
+      <p> <center><a class="smoothScroll" href="#resume" title="Resume"><i class="icon-chevron-down"style="font-size:48px;"></i></a> </center> </p>
+
+    </div>
+  </section>
 
 
 	<section id="resume" name="resume"></section>
 	<!--EDUCATION DESCRIPTION -->
 
   <div class="container desc">
+    <h5>My Education</h5>
+    <br>
+    <div class="separator"></div>
   		<div class="row">
 
+
   				<div class="col-lg-2 col-lg-offset-1">
-  					<h5>My Education</h5>
-  				</div>
-  				<div class="col-lg-6">
-  					</br>
-  					<p><t>Computer Science</t><br/>
-  						University College London <br/>
-  						<i>4 Year Masters Degree -  <a href="http://www.cs.ucl.ac.uk/degrees/meng_computer_science/"> see more</a></i> <br/> <br/>
-              <strong>First Year</strong> <br/>
-              Grade: 1st  <br/>
-              Modules taken:
-              <ul>
-                <li> Programming - C and Haskell -  <i><a href="http://www.cs.ucl.ac.uk/students/syllabus/undergrad/101p_principles_of_programming/"> more</a></i></li>
-                <li> Theory for Computer Science - Data Structures and Algorithms -  <i><a href="http://www.cs.ucl.ac.uk/students/syllabus/undergrad/102p_theory_i/"> more</a></i></li>
-                <li> Discrete Mathematics for Computer Scientists -  <i><a href="https://www.ucl.ac.uk/maths/courses/undergraduates/modules/general-ancillary/general_ancillary_syllabuses/6301"> more</a></i></li>
-                <li> Design and Professional Skills -  <i><a href="http://www.cs.ucl.ac.uk/teaching_learning/syllabus/undergrad/engs102p_design_and_professional_skills/"> more</a></i></li>
-                <li> Object Oriented Programming - Java and App development -  <i><a href="http://www.cs.ucl.ac.uk/students/syllabus/undergrad/103p_object_oriented_programming/"> more</a></i></li>
-                <li> Robotics Programming -  <i><a href="http://www.cs.ucl.ac.uk/students/syllabus/undergrad/105p_robotics_programming/"> more</a></i></li>
-              </ul> </p>
-
-              <p>
-              <strong>Second Year</strong> <br/>
-              Grade: In Progress  <br/>
-              Modules currently taking:
-              <ul>
-                <li> Networking and Concurrency -  <i><a href="http://www.cs.ucl.ac.uk/students/syllabus/undergrad/207p_compilers/"> more</a></i>  </li>
-                <li> Logic and Database Theory -  <i><a href="http://www.cs.ucl.ac.uk/teaching_learning/syllabus/undergrad/202p_logic_and_database_theory/"> more</a></i> </li>
-                <li> Software Engineering and Human Computer Interaction -  <i><a href="http://www.cs.ucl.ac.uk/teaching_learning/syllabus/undergrad/203p_software_engineering_and_human_computer_interaction/"> more</a></i> </li>
-                <li> Systems Engineering -  <i><a href="http://www.cs.ucl.ac.uk/teaching_learning/syllabus/undergrad/204p_systems_engineering_project_1/"> more</a></i></li>
-                <li> Mathematics and Statistics -  <i><a href="http://www.cs.ucl.ac.uk/teaching_learning/syllabus/undergrad/206p_mathematics_and_statistics/"> more</a></i></li>
-                <li> Compilers -  <i><a href="http://www.cs.ucl.ac.uk/teaching_learning/syllabus/undergrad/207p_compilers/"> more</a></i></li>
-              </ul>
-</p>
-
-
-  				</div>
-  				<div class="col-lg-3">
-  					</br>
-  					<p><sm>Graduating in June 2019</sm><br/>
-  					</p>
 
   				</div>
 
-  			<!--
-  	<div class="col-lg-6 col-lg-offset-3">
-  					<p><t>Degree of Web Developer</t><br/>
-  						Hastings University <br/>
-  						<i>2 Years Course</i>
-  					</p>
-  				</div>
-  				<div class="col-lg-3">
-  					<p><sm>JUNE 2012</sm></p>
-  				</div>
-   -->
+  		<div class="col-lg-6">
+  					<br>
+            <br>
+            <p> Click <a href= "education.html" > here </a> to view more detail about my studies and the modules I am currently taking at University. </p>
+
+
 
   		</div><!--/.row -->
   		<br>
-  		<hr>
   	</div><!--/.container -->
 
-	<!--WORK DESCRIPTION -->
-	<div class="container desc">
-		<div class="row">
-
-				<div class="col-lg-2 col-lg-offset-1">
-					<h5>My Projects</h5>
-
-
-				</div>
-				<div class="col-lg-6">
-					</br>
-					<p><t>The Solar Swiftem</t><br/>
-						UCL <br/>
-					</p>
-					<p><more>Using an exciting space theme, some coursemates and I are in the process of creating a website on which children aged 11-13 can learn the programming language Swift.</more></p>
-					<p><more>The website can currently be seen at <a href="http://solarswiftem.com"> www.solarswiftem.com</a></more></p>
-
-				</div>
-
-				<div class="col-lg-3">
-					</br>
-					<p><sm>January 2016 - Present</sm></p>
-				</div>
-
-
-				<div class="col-lg-6 col-lg-offset-3">
-					<p><t>Stem Cell Lab</t><br/>
-						UCL <br/>
-					</p>
-					<p><more>For the app development module during my first year I created a game in Unity demonstrating the research that the UCL Institute of Neurology undertakes on a day to day basis by stylising the research in a 'tamagotchi' style way. The project was undertaken in a team with a professional client taking the end product once finished. </more></p>
-					<p><more>A demo of the app can be seen <a href="http://youtu.be/WFU_GkQWIn0"> here</a></more></p>
-
-				</div>
-				<div class="col-lg-3">
-					</br>
-					<p><sm>January - April 2016</sm></p>
-				</div>
 
 
 
-				<div class="col-lg-6 col-lg-offset-3">
-					<p><t>ReviseMan</t><br/>
-						Dulwich College <br/>
-					</p>
-					<p><more>For my A Level Computing project I wrote a game using Python and Pygame based on the popular game PacMan. The idea was to help students practice their revision by answering questions on a specific topic whilst playing the game. </more></p>
-					<p><more>The project can be downloaded <a href="https://drive.google.com/open?id=0B4McmIvJZxB0VDM0cjcxVm1GUGM&authuser=0"> here</a></more></p>
-
-
-				</div>
-				<div class="col-lg-3">
-					<p><sm>January - June 2015</sm></p>
-				</div>		</div><!--/.row -->
-
-
-		<br>
-		<hr>
-
-	</div><!--/.container -->
-
-
-		<!--
-AWARDS DESCRIPTION	<div class="container desc">
-		<div class="row">
-				<div class="col-lg-2 col-lg-offset-1">
-					<h5>AWARDS</h5>
-				</div>
-				<div class="col-lg-6">
-					<p><t>Best Web Design</t><br/>
-						Black Tie Site <br/>
-					</p>
-				</div>
-				<div class="col-lg-3">
-					<p><sm>NOVEMBER 2013</sm></p>
-				</div>
-
-				<div class="col-lg-6 col-lg-offset-3">
-					<p><t>Designer of the Year</t><br/>
-						Awwwards Site
-					</p>
-					<p><more>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</more></p>
-				</div>
-				<div class="col-lg-3">
-					<p><sm>2013</sm></p>
-				</div>
-		</div>/.row		<br>
-	</div>/.container
- -->
-
-	<!--
-SKILLS DESCRIPTION	<div id="skillswrap">
-		<div class="container">
-			<div class="row">
-					<div class="col-lg-2 col-lg-offset-1">
-						<h5>SKILLS</h5>
-					</div>
- -->
-					<!--<div class="col-lg-3 centered">
-						<canvas id="javascript" height="130" width="130"></canvas>
-						<p>Javascript</p>
-						<br>
-						<script>
-							var doughnutData = [
-									{
-										value: 70,
-										color:"#1abc9c"
-									},
-									{
-										value : 30,
-										color : "#ecf0f1"
-									}
-								];
-								var myDoughnut = new Chart(document.getElementById("javascript").getContext("2d")).Doughnut(doughnutData);
-						</script>
-					</div>
-					<div class="col-lg-3 centered">
-						<canvas id="bootstrap" height="130" width="130"></canvas>
-						<p>Bootstrap</p>
-						<br>
-						<script>
-							var doughnutData = [
-									{
-										value: 90,
-										color:"#1abc9c"
-									},
-									{
-										value : 10,
-										color : "#ecf0f1"
-									}
-								];
-								var myDoughnut = new Chart(document.getElementById("bootstrap").getContext("2d")).Doughnut(doughnutData);
-						</script>
-					</div>
-					<div class="col-lg-3 centered">
-						<canvas id="wordpress" height="130" width="130"></canvas>
-						<p>Wordpress</p>
-						<br>
-						<script>
-							var doughnutData = [
-									{
-										value: 65,
-										color:"#1abc9c"
-									},
-									{
-										value : 35,
-										color : "#ecf0f1"
-									}
-								];
-								var myDoughnut = new Chart(document.getElementById("wordpress").getContext("2d")).Doughnut(doughnutData);
-						</script>
-					</div>
-
-					<div class="col-lg-3 col-lg-offset-3 centered">
-						<canvas id="html" height="130" width="130"></canvas>
-						<p>HTML/CSS</p>
-						<br>
-						<script>
-							var doughnutData = [
-									{
-										value: 80,
-										color:"#1abc9c"
-									},
-									{
-										value : 20,
-										color : "#ecf0f1"
-									}
-								];
-								var myDoughnut = new Chart(document.getElementById("html").getContext("2d")).Doughnut(doughnutData);
-						</script>
-					</div>
-					<div class="col-lg-3 centered">
-						<canvas id="photoshop" height="130" width="130"></canvas>
-						<p>Photoshop</p>
-						<br>
-						<script>
-							var doughnutData = [
-									{
-										value: 70,
-										color:"#1abc9c"
-									},
-									{
-										value : 30,
-										color : "#ecf0f1"
-									}
-								];
-								var myDoughnut = new Chart(document.getElementById("photoshop").getContext("2d")).Doughnut(doughnutData);
-						</script>
-					</div>
-					<div class="col-lg-3 centered">
-						<canvas id="illustrator" height="130" width="130"></canvas>
-						<p>Illustrator</p>
-						<br>
-						<script>
-							var doughnutData = [
-									{
-										value: 50,
-										color:"#1abc9c"
-									},
-									{
-										value : 50,
-										color : "#ecf0f1"
-									}
-								];
-								var myDoughnut = new Chart(document.getElementById("illustrator").getContext("2d")).Doughnut(doughnutData);
-						</script>
-					</div>-->
-
-<!--
-			</div><!~~/.row ~~>
-			<br>
-		</div><!~~/.container ~~>
-	</div><!~~/ #skillswrap ~~>
-
- -->
-
-
-	<!--
-<section id="work" name="work"></section>
-	<!~~PORTFOLIO DESCRIPTION ~~>
-	<div class="container desc">
-		<div class="row">
-				<div class="col-lg-2 col-lg-offset-1">
-					<h5>PROJECTS</h5>
-				</div>
-				<div class="col-lg-6">
-					<p><img class="img-responsive" src="assets/img/solarswiftem.png" alt=""></p>
-				</div>
-				<div class="col-lg-3">
-					<p><strong>The Solar Swiftem</strong></br>
-					<sm>JANUARY 2016 - PRESENT</sm></p>
-
-					<p><more>Using an exciting space theme, some coursemates and I are in the process of creating a website on which children aged 11-13 can learn the programming language Swift.</more></br>
-					<p><more>The website can currently be seen at <a href="http://solarswiftem.com"> www.solarswiftem.com</a></more></p>
-
-					<sm><i class="icon-tag"></i> design</sm></more>
-				</p>
-				</div>
-
-				<div class="col-lg-6 col-lg-offset-3">
-					<p><img class="img-responsive" src="assets/img/pacman.png" alt=""></p>
-				</div>
-				<div class="col-lg-3">
-						<p><strong>ReviseMan</strong></br>
-						<sm>JANUARY - JUNE 2015</sm></p>
-					<p><more>For my A Level Computing project I wrote a game using Python and Pygame based on the popular game PacMan. The idea was to help students practice their revision by answering questions on a specific topic whilst playing the game.<br/>
-					<p><more>The project can be downloaded <a href="https://drive.google.com/open?id=0B4McmIvJZxB0VDM0cjcxVm1GUGM&authuser=0"> here</a></more></p>
-
-						<sm><i class="icon-tag"></i> game development</sm></more>
-
-					</p>
-				</div>
 
 
 
-		</div><!~~/.row ~~>
-		<br>
-		<br>
-	</div><!~~/.container ~~>
- -->
+      </div><!--/.row -->
+  		<br>
+  	</div><!--/.container -->
 
 
+    <!-- //SPEAKERS SECTION -->
 
 
 	<section id="contact" name="contact"></section>
@@ -514,5 +446,16 @@ SKILLS DESCRIPTION	<div id="skillswrap">
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="assets/js/bootstrap.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> <!-- Load jQuery -->
+
+
+    <script>
+      $(document).ready(function(){
+        $(".fadeIn").click(function(){
+        $("div.row2").fadeIn();
+        $("button.fadeIn").hide();
+        });
+      });
+    </script>
   </body>
 </html>

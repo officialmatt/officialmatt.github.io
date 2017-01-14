@@ -1,6 +1,6 @@
 app.get('/webhook', function(req, res) {
   if (req.query['hub.mode'] === 'subscribe' &&
-      req.query['hub.verify_token'] === VALIDATION_TOKEN) {
+      req.query['hub.verify_token'] === 'my_verify') {
     console.log("Validating webhook");
     res.status(200).send(req.query['hub.challenge']);
   } else {
