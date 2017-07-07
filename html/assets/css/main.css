@@ -17,6 +17,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
 }
+
 .container {
   max-width: 100000px;
 }
@@ -174,7 +175,7 @@ a:after {
 
 /* Header Wrap */
 #headerwrap {
-	background: url(../img/header-bg3.jpg) no-repeat center top;
+	/*background: url(../img/header-bg3.jpg) no-repeat center top;*/
 	/*background: #C2DAF8;*/
 	/*margin-top: 60px;*/
 	padding-top:140px;
@@ -221,12 +222,16 @@ a:after {
 /* Intnro Wrap */
 
 #intro {
-	background: #82B3F3;
-	padding-top: 60px;
-	padding-bottom: 60px;
+	/*background: #82B3F3;*/
+  background: #4593e3;
+	/*padding-top: 60px;
+	padding-bottom: 60px;*/
+  padding: 30px;
 	color: white;
   text-align: center;
 }
+
+
 
 #intro h5 {
 	font-size: 36px;
@@ -240,6 +245,36 @@ a:after {
 }
 
 #intro i {
+	font-size: 20px;
+	padding-right: 8px;
+	vertical-align: middle;
+}
+
+
+#intro2 {
+	/*background: #82B3F3;*/
+  background: #82B3F3;
+	/*padding-top: 60px;
+	padding-bottom: 60px;*/
+  padding: 30px;
+	color: white;
+  text-align: center;
+}
+
+
+
+#intro2 h5 {
+	font-size: 36px;
+	 font-weight: bold;
+   text-align: center;
+	color: white;
+}
+#intro2 p {
+
+	color: white;
+}
+
+#intro2 i {
 	font-size: 20px;
 	padding-right: 8px;
 	vertical-align: middle;
